@@ -28,11 +28,7 @@
     "api_in_api_apps": true,
     "api_in_api_user_insights": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [
-        "fdv",
-        "market_cap",
-        "app_revenue"
-    ],
+    "api_api_exclude_metrics": [],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
@@ -42,15 +38,15 @@
     },
     "aliases_l2beat": "megaeth",
     "aliases_l2beat_slug": "megaeth",
-    "aliases_coingecko": null,
+    "aliases_coingecko": "megaeth",
     "aliases_coingecko_chain": "megaeth",
     "aliases_rhino": null,
     "aliases_blockscout_url": null,
-    "aliases_defillama": null,
+    "aliases_defillama": "megaeth",
     "aliases_dune": "megaeth",
     "deployed_supplyreader": "2026-02-11",
     "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
-    "metadata_symbol": null,
+    "metadata_symbol": "MEGA",
     "metadata_gas_token": "ETH",
     "metadata_launch_date": "2025-12-15",
     "metadata_da_layer": "EigenDA",
@@ -92,6 +88,10 @@
     "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
     "cross_check_type": "l2beat",
+    "circulating_supply_token_address": "0x28b7e77f82b25b95953825f1e3ea0e36c1c29861",
+    "circulating_supply_token_deployment_date": "2026-04-30",
+    "circulating_supply_token_deployment_origin_key": "megaeth",
+    "circulating_supply_token_circulating_supply_function": "totalSupply",
     "events": [
         {
             "date": "2026-01-22",
