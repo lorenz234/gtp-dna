@@ -1956,8 +1956,8 @@ coin_mapping = [
             "polymarket-usd"
         ],
         "metric_key": "direct",
-        "bridged_origin_chain": "polygon_pos",
-        "bridged_origin_token_id": "circlefin_usdce",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
         "fiat": "usd",
         "logo": "https://coin-images.coingecko.com/coins/images/102173037/large/polymarket.png?1777389002",
         "color_hex": "#2e5cff"
@@ -2821,7 +2821,10 @@ address_mapping = {
         },
         "circlefin_usdce": {
             "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0xc417fd8e9661c0d2120b64a04bb3278c17e99db1" # pUSD collateral
+            ]
         },
         "tetherto_usdt0": {
             "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
